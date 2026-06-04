@@ -29,7 +29,7 @@ Completion criteria:
 | Phase | Focus | Status |
 | --- | --- | --- |
 | 01 | Project definition and quality criteria | Complete |
-| 02 | Initial repository setup | Pending |
+| 02 | Initial repository setup | Complete |
 | 03 | Dataset schema and annotation guidelines | Pending |
 | 04 | Initial examples and claim extraction | Pending |
 | 05 | Evidence review and labeling | Pending |
@@ -73,3 +73,21 @@ It should not be described as:
 - A machine learning model.
 - An automated misinformation detector.
 - A replacement for professional domain review.
+
+## Phase 02 - Initial Repository Setup
+
+Status: complete
+
+Deliverables:
+
+- Create a concise README for the portfolio project.
+- Add `.gitignore` rules for local context, data, virtual environments, caches, credentials, and generated artifacts.
+- Add a minimal `requirements.txt` for future validation scripts.
+- Create the initial folder structure with `.gitkeep` placeholders.
+- Document the data handling policy in `data/README.md`.
+
+Completion criteria:
+
+- The repository has a clean structure before dataset creation.
+- Local roadmap context remains untracked.
+- No raw data, processed data, generated artifacts, credentials, binaries, or heavy files are committed.
