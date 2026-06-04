@@ -1,15 +1,15 @@
 # Data
 
-This project will use a small, manually created dataset of AI response evaluation examples in later phases.
+This project will use a small, manually created dataset of AI response evaluation examples.
 
 ## Planned Data Structure
 
-Future data files may include:
+Data files may include:
 
 - Raw seed prompts under `data/raw/`.
-- Annotated fact-checking samples under `data/processed/`.
+- Annotated fact-checking samples under `data/processed/ai_fact_checking_response_samples.csv`.
 
-The main planned dataset will contain prompts, AI responses, extracted claims, verdict labels, severity levels, evidence summaries, source URLs, evaluator notes, and corrected responses.
+The main dataset schema contains prompts, AI responses, extracted claims, verdict labels, severity levels, evidence summaries, source URLs, evaluator notes, and corrected responses.
 
 ## Data Policy
 
@@ -21,8 +21,8 @@ Do not commit:
 - Credentials or source access tokens.
 - Large binary artifacts.
 
-Only `.gitkeep` placeholders and documentation should be committed at this setup stage.
+Only `.gitkeep` placeholders, documentation, and the header-only dataset template should be committed at this stage.
 
 ## Current Status
 
-No dataset has been created in Phase 02. Dataset schema and annotation rules will be defined in Phase 03.
+Phase 03 added the official header-only CSV template. Real sample cases have not been added yet.

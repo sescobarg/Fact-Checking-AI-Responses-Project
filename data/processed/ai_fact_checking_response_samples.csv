@@ -1,0 +1,1 @@
+sample_id,domain,user_prompt,ai_response,claim_id,claim_text,verdict,error_type,severity,evidence_summary,source_url,corrected_claim,corrected_response,evaluator_note_en,quality_check

@@ -22,7 +22,7 @@ The project is relevant to:
 
 ## Current Status
 
-Phase 02 is complete. The repository has a clean initial structure and setup documentation. Dataset files, sample cases, annotation guidelines, and validation scripts will be added in later phases.
+Phase 03 is complete. The repository now includes the dataset schema, annotation guidelines, source policy, and an empty CSV template for future fact-checking examples. Sample cases and validation scripts will be added in later phases.
 
 ## Repository Structure
 
@@ -33,8 +33,11 @@ fact-checking-ai-responses-project/
 |   |-- processed/
 |   |-- README.md
 |-- docs/
+|   |-- annotation_guidelines.md
+|   |-- data_dictionary.md
 |   |-- evaluation_rubric.md
 |   |-- label_definitions.md
+|   |-- source_policy.md
 |-- examples/
 |-- notebooks/
 |-- reports/
@@ -49,14 +52,17 @@ fact-checking-ai-responses-project/
 ## Documentation
 
 - `roadmap.md`: project phases and scope.
+- `docs/annotation_guidelines.md`: process for extracting claims, assigning verdicts, and writing evaluator notes.
+- `docs/data_dictionary.md`: official dataset columns and expected values.
 - `docs/evaluation_rubric.md`: quality criteria for factual evaluation.
 - `docs/label_definitions.md`: allowed verdict labels and severity levels.
+- `docs/source_policy.md`: rules for choosing reliable sources.
 - `data/README.md`: data handling policy and expected future dataset location.
 
 ## Data Policy
 
-Raw data, processed data, generated reports, credentials, binaries, and heavy artifacts should not be committed. Folder placeholders are committed with `.gitkeep` so the repository structure is visible.
+Raw data, generated reports, credentials, binaries, and heavy artifacts should not be committed. The header-only dataset template at `data/processed/ai_fact_checking_response_samples.csv` is tracked so future annotations follow a consistent schema.
 
 ## Planned Next Work
 
-Phase 03 will define the dataset schema, annotation guidelines, source policy, and the structure for future evaluated examples.
+Phase 04 will add the first sample cases and extract verifiable claims using the Phase 03 annotation structure.

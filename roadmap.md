@@ -30,7 +30,7 @@ Completion criteria:
 | --- | --- | --- |
 | 01 | Project definition and quality criteria | Complete |
 | 02 | Initial repository setup | Complete |
-| 03 | Dataset schema and annotation guidelines | Pending |
+| 03 | Dataset schema and annotation guidelines | Complete |
 | 04 | Initial examples and claim extraction | Pending |
 | 05 | Evidence review and labeling | Pending |
 | 06 | Corrected responses | Pending |
@@ -91,3 +91,20 @@ Completion criteria:
 - The repository has a clean structure before dataset creation.
 - Local roadmap context remains untracked.
 - No raw data, processed data, generated artifacts, credentials, binaries, or heavy files are committed.
+
+## Phase 03 - Dataset Schema and Annotation Guidelines
+
+Status: complete
+
+Deliverables:
+
+- Create the official data dictionary for the annotation CSV.
+- Create annotation guidelines for claim extraction, verdict decisions, evidence summaries, corrections, and reviewer notes.
+- Create a source policy for reliable evidence selection.
+- Add the header-only dataset template at `data/processed/ai_fact_checking_response_samples.csv`.
+
+Completion criteria:
+
+- The CSV schema is documented and matches the header row.
+- Allowed verdict labels and severity levels are consistent with the rubric.
+- A future evaluator can add new examples without needing undocumented assumptions.
