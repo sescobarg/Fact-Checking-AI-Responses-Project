@@ -31,7 +31,7 @@ Completion criteria:
 | 01 | Project definition and quality criteria | Complete |
 | 02 | Initial repository setup | Complete |
 | 03 | Dataset schema and annotation guidelines | Complete |
-| 04 | Initial examples and claim extraction | Pending |
+| 04 | Initial examples and claim extraction | In progress - Phase 04A complete |
 | 05 | Evidence review and labeling | Pending |
 | 06 | Corrected responses | Pending |
 | 07 | Dataset validation and quality checks | Pending |
@@ -108,3 +108,20 @@ Completion criteria:
 - The CSV schema is documented and matches the header row.
 - Allowed verdict labels and severity levels are consistent with the rubric.
 - A future evaluator can add new examples without needing undocumented assumptions.
+
+## Phase 04A - Pilot Cases and Claim Extraction
+
+Status: complete
+
+Deliverables:
+
+- Create five pilot fact-checking cases across technology, history, science, travel/geography, and culture/entertainment.
+- Add one Markdown file per sample under `examples/`.
+- Extract at least two clear, verifiable claims per sample.
+- Keep claims unverified for now; no verdict labels, evidence summaries, source URLs, or corrections are assigned in this phase.
+
+Completion criteria:
+
+- Five pilot sample files exist.
+- Each sample includes `sample_id`, `domain`, `user_prompt`, `ai_response_to_evaluate`, `extracted_claims`, and `notes_for_future_verification`.
+- Claim IDs are unique and ready for future verification.

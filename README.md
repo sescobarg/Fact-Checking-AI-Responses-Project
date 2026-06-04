@@ -22,7 +22,7 @@ The project is relevant to:
 
 ## Current Status
 
-Phase 03 is complete. The repository now includes the dataset schema, annotation guidelines, source policy, and an empty CSV template for future fact-checking examples. Sample cases and validation scripts will be added in later phases.
+Phase 04A is complete. The repository now includes five pilot fact-checking sample files with realistic AI responses and extracted verifiable claims. Full factual verification, verdict labels, evidence summaries, and validation scripts will be added in later phases.
 
 ## Repository Structure
 
@@ -39,6 +39,11 @@ fact-checking-ai-responses-project/
 |   |-- label_definitions.md
 |   |-- source_policy.md
 |-- examples/
+|   |-- sample_001.md
+|   |-- sample_002.md
+|   |-- sample_003.md
+|   |-- sample_004.md
+|   |-- sample_005.md
 |-- notebooks/
 |-- reports/
 |   |-- figures/
@@ -65,4 +70,4 @@ Raw data, generated reports, credentials, binaries, and heavy artifacts should n
 
 ## Planned Next Work
 
-Phase 04 will add the first sample cases and extract verifiable claims using the Phase 03 annotation structure.
+The next step is to verify the pilot claims against reliable sources and begin assigning verdict labels, severity levels, evidence summaries, and evaluator notes.
