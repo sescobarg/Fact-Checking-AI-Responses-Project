@@ -31,7 +31,7 @@ Completion criteria:
 | 01 | Project definition and quality criteria | Complete |
 | 02 | Initial repository setup | Complete |
 | 03 | Dataset schema and annotation guidelines | Complete |
-| 04 | Initial examples and claim extraction | In progress - Phase 04B complete |
+| 04 | Initial examples and claim extraction | In progress - Phase 04C complete |
 | 05 | Evidence review and labeling | Pending |
 | 06 | Corrected responses | Pending |
 | 07 | Dataset validation and quality checks | Pending |
@@ -142,4 +142,22 @@ Completion criteria:
 - Ten total pilot sample files exist.
 - New samples each contain 3-4 extracted claims.
 - Claim IDs remain unique across samples `FC001` through `FC010`.
+- The CSV remains header-only until full verification fields are ready.
+
+## Phase 04C - Third Batch of Pilot Cases
+
+Status: complete
+
+Deliverables:
+
+- Create five additional pilot cases across public policy/civics, sports history, space/astronomy, consumer technology, and food/nutrition general information.
+- Add one Markdown file per new sample under `examples/`.
+- Extract exactly three important verifiable claims per new sample.
+- Keep claims unverified for now; no verdict labels, evidence summaries, source URLs, or corrections are assigned in this phase.
+
+Completion criteria:
+
+- Fifteen total pilot sample files exist.
+- New samples each contain exactly three extracted claims.
+- Claim IDs remain unique across samples `FC001` through `FC015`.
 - The CSV remains header-only until full verification fields are ready.
