@@ -31,7 +31,7 @@ Completion criteria:
 | 01 | Project definition and quality criteria | Complete |
 | 02 | Initial repository setup | Complete |
 | 03 | Dataset schema and annotation guidelines | Complete |
-| 04 | Initial examples and claim extraction | In progress - Phase 04C complete |
+| 04 | Initial examples and claim extraction | Complete |
 | 05 | Evidence review and labeling | Pending |
 | 06 | Corrected responses | Pending |
 | 07 | Dataset validation and quality checks | Pending |
@@ -160,4 +160,22 @@ Completion criteria:
 - Fifteen total pilot sample files exist.
 - New samples each contain exactly three extracted claims.
 - Claim IDs remain unique across samples `FC001` through `FC015`.
+- The CSV remains header-only until full verification fields are ready.
+
+## Phase 04D - Final Draft Sample Batch
+
+Status: complete
+
+Deliverables:
+
+- Create five final draft cases across transportation/urban mobility, economics/labor market, energy/sustainability, digital privacy/cybersecurity, and international organizations/global affairs.
+- Add one Markdown file per new sample under `examples/`.
+- Extract exactly three important verifiable claims per new sample.
+- Keep claims unverified for now; no verdict labels, evidence summaries, source URLs, or corrections are assigned in this phase.
+
+Completion criteria:
+
+- Twenty total draft sample files exist.
+- New samples each contain exactly three extracted claims.
+- Claim IDs remain unique across samples `FC001` through `FC020`.
 - The CSV remains header-only until full verification fields are ready.

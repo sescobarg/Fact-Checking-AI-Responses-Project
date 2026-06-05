@@ -22,7 +22,7 @@ The project is relevant to:
 
 ## Current Status
 
-Phase 04C is complete. The repository now includes fifteen pilot fact-checking sample files with realistic AI responses and extracted verifiable claims. Full factual verification, verdict labels, evidence summaries, and validation scripts will be added in later phases.
+Phase 04D is complete. The repository now includes twenty draft fact-checking sample files with realistic AI responses and extracted verifiable claims. Full factual verification, verdict labels, evidence summaries, and validation scripts will be added in later phases.
 
 ## Repository Structure
 
@@ -54,6 +54,11 @@ fact-checking-ai-responses-project/
 |   |-- sample_013.md
 |   |-- sample_014.md
 |   |-- sample_015.md
+|   |-- sample_016.md
+|   |-- sample_017.md
+|   |-- sample_018.md
+|   |-- sample_019.md
+|   |-- sample_020.md
 |-- notebooks/
 |-- reports/
 |   |-- figures/
