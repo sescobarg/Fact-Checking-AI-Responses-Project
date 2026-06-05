@@ -22,7 +22,7 @@ The project is relevant to:
 
 ## Current Status
 
-Phase 05A is complete. The repository includes twenty draft fact-checking sample files, and the first two samples have completed claim-level verification in the CSV. Remaining samples, validation scripts, and quality reports will be added in later phases.
+Phase 05B is complete. The repository includes twenty draft fact-checking sample files, and the first four samples have completed claim-level verification in the CSV. Remaining samples, validation scripts, and quality reports will be added in later phases.
 
 ## Repository Structure
 

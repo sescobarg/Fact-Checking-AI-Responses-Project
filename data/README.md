@@ -25,4 +25,4 @@ Only `.gitkeep` placeholders, documentation, and reviewed annotation rows should
 
 ## Current Status
 
-Phase 05A added reviewed CSV rows for samples `FC001` and `FC002`. Remaining draft samples will be verified in later phases.
+Phase 05B added reviewed CSV rows for samples `FC001` through `FC004`. Remaining draft samples will be verified in later phases.
