@@ -21,8 +21,8 @@ Do not commit:
 - Credentials or source access tokens.
 - Large binary artifacts.
 
-Only `.gitkeep` placeholders, documentation, and the header-only dataset template should be committed at this stage.
+Only `.gitkeep` placeholders, documentation, and reviewed annotation rows should be committed at this stage.
 
 ## Current Status
 
-Phase 03 added the official header-only CSV template. Real sample cases have not been added yet.
+Phase 05A added reviewed CSV rows for samples `FC001` and `FC002`. Remaining draft samples will be verified in later phases.

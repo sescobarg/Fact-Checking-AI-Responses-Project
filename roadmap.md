@@ -32,7 +32,7 @@ Completion criteria:
 | 02 | Initial repository setup | Complete |
 | 03 | Dataset schema and annotation guidelines | Complete |
 | 04 | Initial examples and claim extraction | Complete |
-| 05 | Evidence review and labeling | Pending |
+| 05 | Evidence review and labeling | In progress - Phase 05A complete |
 | 06 | Corrected responses | Pending |
 | 07 | Dataset validation and quality checks | Pending |
 | 08 | Final documentation and portfolio publication | Pending |
@@ -179,3 +179,21 @@ Completion criteria:
 - New samples each contain exactly three extracted claims.
 - Claim IDs remain unique across samples `FC001` through `FC020`.
 - The CSV remains header-only until full verification fields are ready.
+
+## Phase 05A - First Evidence Review and Labeling Batch
+
+Status: complete
+
+Deliverables:
+
+- Verify all extracted claims from `examples/sample_001.md` and `examples/sample_002.md`.
+- Add completed CSV rows for claims `FC001-C01` through `FC002-C06`.
+- Assign allowed verdict labels and severity levels.
+- Add evidence summaries, source URLs, corrected claims or corrected responses when needed, evaluator notes, and `quality_check = reviewed`.
+
+Completion criteria:
+
+- Only claims from samples `FC001` and `FC002` are added to the CSV.
+- CSV headers remain unchanged.
+- All added rows use allowed verdict and severity values.
+- Source URLs are present for all added rows.
